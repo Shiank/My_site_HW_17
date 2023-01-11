@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Teko:wght@500&display=swap');
+
+.inline-block{
+    padding: 20px;
+    list-style: none;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav{
+    justify-content: flex-end;
+    color:#243E36;
+}
+
+.left{
+    justify-content: flex-start;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    font-family: Teko, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.heroImg{
+    display: flex;
+    height: 600px;
+    padding: 25px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.content-left{
+    justify-content: flex-start;
+    order: 1;
+    width: 400px;
+}
+
+.content-right{
+    justify-content: flex-end;
+    order: 2;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #243E36;
+    color: azure;
+}
+
+p{
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-family: lato, Arial, Helvetica, sans-serif;
+    color:#243E36;;
+    font-size: 16px;
+    padding: 5px;
+    width: 40;
+}
